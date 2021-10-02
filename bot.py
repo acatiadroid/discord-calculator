@@ -185,5 +185,10 @@ async def initialize(ctx):
         await msg.edit(view=view)
 
 
+@bot.command()
+async def source(ctx):
+    await ctx.send('https://github.com/acatiadroid/discord-calculator')
+
+
 if __name__ == "__main__":
     bot.run("")
